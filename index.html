@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="light">
+    <header>
+      <h1>Music Player</h1>
+      <button id="toggle-theme-btn">Toggle Theme</button>
+    </header>
+    <div id="container">
+      <!-- All songs div -->
+      <div id="all-songs-div">
+        <input type="text" id="search-songs-input" placeholder="search Songs" />
+        <div id="songs-list"></div>
+      </div>
+      <!-- song card div -->
+      <div id="song-card-div"></div>
+
+      <!-- playlist -->
+      <div id="playlist-div">
+        <button id="create-playlist-btn">Create Playlist</button>
+      </div>
+
+      <!-- playlist songs -->
+      <div id="playlist-songs-div"></div>
+    </div>
+
+    <audio id="audio-player"></audio>
+    <script src="script1.js"></script>
+  </body>
+</html>

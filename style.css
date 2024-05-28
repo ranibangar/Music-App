@@ -1,0 +1,90 @@
+body[data-theme="light"] {
+  background-color: white;
+  color: black;
+}
+body[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+#toggle-theme-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #3fc3c8; /* Green background */
+  border: 1px solid #175557;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+header,
+#container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#all-songs-div,
+#song-card-div #playlist-div,
+#playlist-songs-div {
+  width: 24%;
+  border: 1px solid #3fc3c8;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: #3fc3c8;
+  border: 1px solid #175557;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#song-card-div {
+  padding: 10px;
+  background-color: #3fc3c8;
+  border: 1px solid #175557;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#search-songs-input {
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* background-color: #1e696b; */
+  color: white;
+}
+
+.songs,
+.playlist {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+#toggle-theme-btn,
+#create-playlist-btn {
+  cursor: pointer;
+}
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#prev-btn,
+#next-btn,
+#add-to-playlist-btn {
+  background-color: #1e696b;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.remove-btn{
+  background-color: #1e696b;
+  padding: 5px;
+  border-radius: 5px;
+}
+#playlist-div{
+  background-color: #3fc3c8;
+  padding: 10px;
+  border: 1px solid #175557;
+  border-radius: 10px;
+  font-size: 18px;
+}
